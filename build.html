@@ -34,10 +34,13 @@
 <ul class="toc" aria-label="Steps"><li><a href="#step0" data-i18n="build.toc0">Step 0</a></li><li><a href="#step1" data-i18n="build.toc1">Step 1</a></li><li><a href="#step2" data-i18n="build.toc2">Step 2</a></li><li><a href="#step3" data-i18n="build.toc3">Step 3</a></li><li><a href="#step4" data-i18n="build.toc4">Step 4</a></li><li><a href="#step5" data-i18n="build.toc5">Step 5</a></li></ul>
 
 <!-- Step 0 -->
-<section class="step" id="step0">
-<header><span class="badge">0</span><h2 data-i18n="build.s0.h">Meet Scratch</h2></header>
+<section class="step" id="step0"><header><span class="badge">0</span><h2 data-i18n="build.s0.h">Meet Scratch</h2></header><div class="stepbody"><div class="txt">
+
 <p data-i18n="build.s0.p">Look at the Scratch screen. You will use these four parts all the time.</p>
-<div class="shots"><figure class="shot wide"><svg viewBox="0 0 640 400" role="img" aria-label="A simple map of the Scratch screen with four numbered parts." data-i18n-label="alt.build.map" width="640" height="400">
+
+<p class="check" data-i18n="build.s0.c">Check: click each sprite. You see an empty Code area, because we have not built anything yet.</p>
+
+</div><div class="pics"><div class="shots"><figure class="shot wide"><svg viewBox="0 0 640 400" role="img" aria-label="A simple map of the Scratch screen with four numbered parts." data-i18n-label="alt.build.map" width="640" height="400">
 <rect x="1" y="1" width="638" height="398" rx="12" fill="#f6f9ff" stroke="#9db4d6" stroke-width="2"/>
 <rect x="1" y="1" width="638" height="42" rx="12" fill="#4c97ff"/><rect x="1" y="30" width="638" height="13" fill="#4c97ff"/>
 <rect x="12" y="52" width="130" height="336" rx="8" fill="#e9eef7" stroke="#c4d0e4"/>
@@ -59,75 +62,72 @@
 <li><span class="n">2</span><span data-i18n="build.s0.l2">Sprite list: the Basket, the Apple and the Bomb.</span></li>
 <li><span class="n">3</span><span data-i18n="build.s0.l3">Code area: where you drag blocks to build code.</span></li>
 <li><span class="n">4</span><span data-i18n="build.s0.l4">Green flag: starts the game.</span></li>
-</ul></div>
-<p class="check" data-i18n="build.s0.c">Check: click each sprite. You see an empty Code area, because we have not built anything yet.</p>
-<div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-starter.sb3" download>catch-starter.sb3</a> <a class="btn secondary" href="downloads/catch-step0.sb3" download>catch-step0.sb3</a></div>
-</section>
+</ul></div></div></div><div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-starter.sb3" download>catch-starter.sb3</a> <a class="btn secondary" href="downloads/catch-step0.sb3" download>catch-step0.sb3</a></div></section>
 
 <!-- Step 1 -->
-<section class="step" id="step1">
-<header><span class="badge">1</span><h2 data-i18n="build.s1.h">Move the Basket</h2></header>
+<section class="step" id="step1"><header><span class="badge">1</span><h2 data-i18n="build.s1.h">Move the Basket</h2></header><div class="stepbody"><div class="txt">
+
 <p data-i18n="build.s1.p">Click the <strong>Basket</strong> sprite in the sprite list. Build these three scripts. A script starts with a yellow block that waits for something to happen.</p>
-<div class="shots"><figure class="shot narrow"><img src="img/scripts/step1-basket.png" alt="Basket scripts. When the green flag is clicked: go to x 0 y -140. When the left arrow key is pressed: change x by -15. When the right arrow key is pressed: change x by 15." data-i18n-alt="alt.s1" loading="lazy"></figure></div>
+
 <p class="check" data-i18n="build.s1.c">Check: press the left and right arrow keys. The Basket moves. Press the green flag. The Basket goes back to the bottom middle.</p>
-<div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step1.sb3" download>catch-step1.sb3</a></div>
-</section>
+
+</div><div class="pics"><div class="shots"><figure class="shot narrow"><a href="img/scripts/step1-basket.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step1-basket.png" style="width:334px" alt="Basket scripts. When the green flag is clicked: go to x 0 y -140. When the left arrow key is pressed: change x by -15. When the right arrow key is pressed: change x by 15." data-i18n-alt="alt.s1" loading="lazy"></a></figure></div></div></div><div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step1.sb3" download>catch-step1.sb3</a></div></section>
 
 <!-- Step 2 -->
-<section class="step" id="step2">
-<header><span class="badge">2</span><h2 data-i18n="build.s2.h">Make the Apple fall</h2></header>
+<section class="step" id="step2"><header><span class="badge">2</span><h2 data-i18n="build.s2.h">Make the Apple fall</h2></header><div class="stepbody"><div class="txt">
+
 <p data-i18n="build.s2.p">Click the <strong>Apple</strong> sprite. Build this script. The <code>repeat until</code> block keeps the Apple falling until its y position is below -170, the bottom of the Stage.</p>
-<div class="shots"><figure class="shot narrow"><img src="img/scripts/step2-apple.png" alt="Apple script. When the green flag is clicked: go to x pick random -220 to 220, y 170. Repeat until y position is less than -170: change y by -5." data-i18n-alt="alt.s2" loading="lazy"></figure></div>
+
 <p class="check" data-i18n="build.s2.c">Check: press the green flag. The Apple starts at the top in a different place each time, then falls and stops at the bottom.</p>
 <p class="tip" data-i18n="build.s2.t">Tip: a bigger minus number after <code>change y by</code> makes the Apple fall faster.</p>
-<div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step2.sb3" download>catch-step2.sb3</a></div>
-</section>
+
+</div><div class="pics"><div class="shots"><figure class="shot narrow"><a href="img/scripts/step2-apple.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step2-apple.png" style="width:463px" alt="Apple script. When the green flag is clicked: go to x pick random -220 to 220, y 170. Repeat until y position is less than -170: change y by -5." data-i18n-alt="alt.s2" loading="lazy"></a></figure></div></div></div><div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step2.sb3" download>catch-step2.sb3</a></div></section>
 
 <!-- Step 3 -->
-<section class="step" id="step3">
-<header><span class="badge">3</span><h2 data-i18n="build.s3.h">Catch the Apple and score</h2></header>
+<section class="step" id="step3"><header><span class="badge">3</span><h2 data-i18n="build.s3.h">Catch the Apple and score</h2></header><div class="stepbody"><div class="txt">
+
 <p data-i18n="build.s3.p1">First, make a variable called <strong>Score</strong>. A variable is a box that remembers a number.</p>
-<div class="shots"><figure class="shot narrow"><img src="img/variable-help/step3-make-variable-score.png" alt="Steps to make a variable called Score: click Variables, click Make a Variable, type Score, click OK." data-i18n-alt="alt.s3v" loading="lazy"></figure></div>
+
 <p data-i18n="build.s3.p2">Then build these scripts. The Basket sets the Score to 0 at the start. The Apple adds 1 to the Score when it touches the Basket. The arrow key scripts now use 20. You can choose your own number.</p>
-<div class="shots">
-<figure class="shot narrow"><img src="img/scripts/step3-basket.png" alt="Basket scripts. The green flag script also has set Score to 0. The arrow keys change x by -20 and 20." data-i18n-alt="alt.s3b" loading="lazy"></figure>
-<figure class="shot narrow"><img src="img/scripts/step3-apple.png" alt="Apple script. Repeat until touching Basket or y position is less than -170: change y by -7. Then, if touching Basket, change Score by 1." data-i18n-alt="alt.s3a" loading="lazy"></figure>
-</div>
+
 <p class="tip" data-i18n="build.s3.t1">Tip: in the <code>touching</code> block, click the dropdown and choose <strong>Basket</strong>. At first it says mouse-pointer.</p>
 <p class="tip" data-i18n="build.s3.t2">The green <code>or</code> block means: stop falling when the Apple touches the Basket <em>or</em> when it reaches the bottom.</p>
 <p class="check" data-i18n="build.s3.c">Check: catch an Apple. The Score goes up by 1. Miss an Apple. The Score stays the same.</p>
-<div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step3.sb3" download>catch-step3.sb3</a></div>
-</section>
+
+</div><div class="pics"><div class="shots"><figure class="shot narrow"><a href="img/variable-help/step3-make-variable-score.png" target="_blank" rel="noopener" class="zoom"><img src="img/variable-help/step3-make-variable-score.png" style="width:796px" alt="Steps to make a variable called Score: click Variables, click Make a Variable, type Score, click OK." data-i18n-alt="alt.s3v" loading="lazy"></a></figure></div><div class="shots">
+<figure class="shot narrow"><a href="img/scripts/step3-basket.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step3-basket.png" style="width:334px" alt="Basket scripts. The green flag script also has set Score to 0. The arrow keys change x by -20 and 20." data-i18n-alt="alt.s3b" loading="lazy"></a></figure>
+<figure class="shot narrow"><a href="img/scripts/step3-apple.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step3-apple.png" style="width:649px" alt="Apple script. Repeat until touching Basket or y position is less than -170: change y by -7. Then, if touching Basket, change Score by 1." data-i18n-alt="alt.s3a" loading="lazy"></a></figure>
+</div></div></div><div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step3.sb3" download>catch-step3.sb3</a></div></section>
 
 <!-- Step 4 -->
-<section class="step" id="step4">
-<header><span class="badge">4</span><h2 data-i18n="build.s4.h">Keep going and add the Bomb</h2></header>
+<section class="step" id="step4"><header><span class="badge">4</span><h2 data-i18n="build.s4.h">Keep going and add the Bomb</h2></header><div class="stepbody"><div class="txt">
+
 <h3 data-i18n="build.s4a.h">Part A: more apples</h3>
 <p data-i18n="build.s4a.p">Put the Apple's blocks inside a <code>forever</code> block. Now a new Apple starts every time the last one lands.</p>
-<div class="shots"><figure class="shot narrow"><img src="img/scripts/step4a-apple.png" alt="Apple script inside a forever block: go to a random x at the top, repeat until touching Basket or y position is less than -170 change y by -7, then if touching Basket change Score by 1." data-i18n-alt="alt.s4a" loading="lazy"></figure></div>
+
 <p class="check" data-i18n="build.s4a.c">Check: apples keep falling, one after another.</p>
 <h3 style="margin-top:22px" data-i18n="build.s4b.h">Part B: the Bomb and the speed</h3>
 <p data-i18n="build.s4b.p">Now the Bomb. Catching the Bomb ends the game. Tip: drag the Apple script onto the Bomb sprite to copy it. Then change the blocks inside the <code>if</code>: remove <code>change Score by 1</code>, and add <code>say Game Over! for 2 seconds</code> and <code>stop all</code>.</p>
-<div class="shots"><figure class="shot narrow"><img src="img/scripts/step4b-bomb.png" alt="Bomb script inside a forever block. If touching Basket: say Game Over! for 2 seconds, then stop all." data-i18n-alt="alt.s4bb" loading="lazy"></figure></div>
+
 <p data-i18n="build.s4b.p2">The Apple now falls a little faster (-8). Speed is your choice: try other numbers.</p>
-<div class="shots"><figure class="shot narrow"><img src="img/scripts/step4b-apple.png" alt="Apple script with change y by -8." data-i18n-alt="alt.s4ba" loading="lazy"></figure></div>
+
 <p class="check" data-i18n="build.s4b.c">Check: the Bomb falls too. Catch it and the game stops with Game Over!</p>
-<div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step4a.sb3" download>catch-step4a.sb3 (Part A)</a> <a class="btn secondary" href="downloads/catch-step4b.sb3" download>catch-step4b.sb3 (Part B)</a></div>
-</section>
+
+</div><div class="pics"><div class="shots"><figure class="shot narrow"><a href="img/scripts/step4a-apple.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step4a-apple.png" style="width:664px" alt="Apple script inside a forever block: go to a random x at the top, repeat until touching Basket or y position is less than -170 change y by -7, then if touching Basket change Score by 1." data-i18n-alt="alt.s4a" loading="lazy"></a></figure></div><div class="shots"><figure class="shot narrow"><a href="img/scripts/step4b-bomb.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step4b-bomb.png" style="width:664px" alt="Bomb script inside a forever block. If touching Basket: say Game Over! for 2 seconds, then stop all." data-i18n-alt="alt.s4bb" loading="lazy"></a></figure></div><div class="shots"><figure class="shot narrow"><a href="img/scripts/step4b-apple.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step4b-apple.png" style="width:664px" alt="Apple script with change y by -8." data-i18n-alt="alt.s4ba" loading="lazy"></a></figure></div></div></div><div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step4a.sb3" download>catch-step4a.sb3 (Part A)</a> <a class="btn secondary" href="downloads/catch-step4b.sb3" download>catch-step4b.sb3 (Part B)</a></div></section>
 
 <!-- Step 5 -->
-<section class="step" id="step5">
-<header><span class="badge">5</span><h2 data-i18n="build.s5.h">Add lives</h2></header>
+<section class="step" id="step5"><header><span class="badge">5</span><h2 data-i18n="build.s5.h">Add lives</h2></header><div class="stepbody"><div class="txt">
+
 <p data-i18n="build.s5.p1">Make a second variable called <strong>Lives</strong>.</p>
-<div class="shots"><figure class="shot narrow"><img src="img/variable-help/step5-make-variable-lives.png" alt="Steps to make a variable called Lives: click Variables, click Make a Variable, type Lives, click OK." data-i18n-alt="alt.s5v" loading="lazy"></figure></div>
+
 <p data-i18n="build.s5.p2">The Basket starts with 3 lives. When an Apple is missed, you lose 1 life. At 0 lives, the game ends.</p>
-<div class="shots">
-<figure class="shot narrow"><img src="img/scripts/step5-basket.png" alt="Basket scripts. The green flag script has set Score to 0 and set Lives to 3." data-i18n-alt="alt.s5b" loading="lazy"></figure>
-<figure class="shot narrow"><img src="img/scripts/step5-apple.png" alt="Apple script. If touching Basket, change Score by 1. Else change Lives by -1, and if Lives is 0, say Game Over! for 2 seconds and stop all." data-i18n-alt="alt.s5a" loading="lazy"></figure>
-</div>
+
 <p class="check" data-i18n="build.s5.c">Check: miss an Apple. Lives goes down by 1. At 0 the game says Game Over!</p>
-<div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step5.sb3" download>catch-step5.sb3</a> <a class="btn secondary" href="downloads/catch-final.sb3" download>catch-final.sb3 (finished game)</a></div>
-</section>
+
+</div><div class="pics"><div class="shots"><figure class="shot narrow"><a href="img/variable-help/step5-make-variable-lives.png" target="_blank" rel="noopener" class="zoom"><img src="img/variable-help/step5-make-variable-lives.png" style="width:796px" alt="Steps to make a variable called Lives: click Variables, click Make a Variable, type Lives, click OK." data-i18n-alt="alt.s5v" loading="lazy"></a></figure></div><div class="shots">
+<figure class="shot narrow"><a href="img/scripts/step5-basket.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step5-basket.png" style="width:334px" alt="Basket scripts. The green flag script has set Score to 0 and set Lives to 3." data-i18n-alt="alt.s5b" loading="lazy"></a></figure>
+<figure class="shot narrow"><a href="img/scripts/step5-apple.png" target="_blank" rel="noopener" class="zoom"><img src="img/scripts/step5-apple.png" style="width:664px" alt="Apple script. If touching Basket, change Score by 1. Else change Lives by -1, and if Lives is 0, say Game Over! for 2 seconds and stop all." data-i18n-alt="alt.s5a" loading="lazy"></a></figure>
+</div></div></div><div class="stuck"><span data-i18n="build.stuck">Stuck? Download the saved file for this step:</span> <a class="btn secondary" href="downloads/catch-step5.sb3" download>catch-step5.sb3</a> <a class="btn secondary" href="downloads/catch-final.sb3" download>catch-final.sb3 (finished game)</a></div></section>
 
 <section class="getstarted" style="border-color:var(--green)">
 <h2 style="margin-top:0" data-i18n="build.done.h">Well done!</h2>

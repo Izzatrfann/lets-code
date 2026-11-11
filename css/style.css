@@ -142,3 +142,17 @@ svg{max-width:100%;height:auto}
 
 .shot.narrow{max-width:560px}
 .gamecard h3+p{min-height:3.3em}
+
+/* build page: text left, pictures right */
+.stepbody{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 28px;align-items:start}
+.stepbody .pics{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.stepbody .pics .shots{margin:0;gap:12px;align-items:flex-start}
+.stepbody .pics:empty{display:none}
+.stepbody:has(.pics:empty){grid-template-columns:1fr}
+.stepbody .shot{max-width:100%}
+.stepbody .shot img{max-width:100%;height:auto}
+.stepbody .shot.wide,.stepbody .shot.narrow{max-width:100%}
+.stepbody .txt > p:first-child,.stepbody .txt > h3:first-child{margin-top:0}
+.shot a.zoom{display:block;cursor:zoom-in}
+@media (min-width:821px){.stepbody .pics{position:sticky;top:12px}}
+@media (max-width:820px){.stepbody{grid-template-columns:1fr}}
