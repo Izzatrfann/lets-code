@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="title.play.html">Play: Let's Code</title>
+<meta name="description" content="Play Catch and Avoid in your browser, plus three more Scratch games.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="28" r="15" fill="#e53935"/><path d="M24 13c0-5 3-8 7-9 0 5-3 8-7 9z" fill="#2e9e4f"/><path d="M24 13v6" stroke="#5d3a1a" stroke-width="3" stroke-linecap="round"/><ellipse cx="18" cy="24" rx="3" ry="5" fill="#fff" opacity=".35"/></svg><span>Let's Code</span></a>
+<nav aria-label="Main"><ul class="nav"><li><a href="index.html" data-i18n="nav.home">Home</a></li><li><a href="play.html" aria-current="page" data-i18n="nav.play">Play</a></li><li><a href="build.html" data-i18n="nav.build">Build</a></li><li><a href="bug-cards.html" data-i18n="nav.bugs">Bug Cards</a></li><li><a href="facilitators.html" data-i18n="nav.fac">For facilitators</a></li><li><a href="about.html" data-i18n="nav.about">About</a></li></ul></nav>
+<div class="lang" role="group" aria-labelledby="lang-label"><span id="lang-label" data-i18n="lang.label">Language</span>
+<button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="ms" aria-pressed="false">BM</button></div>
+</div></header>
+<main id="main"><div class="wrap">
+
+<h1 data-i18n="play.h1">Play</h1>
+<section class="game" aria-labelledby="g-title">
+<div id="stage-box">
+<div id="stage"><div id="stage-cover">
+<button type="button" class="btn orange" id="start-game" data-i18n="play.start">Start the game</button>
+</div></div>
+<div class="pad" id="pad">
+<button type="button" id="pad-left" data-hold="ArrowLeft" aria-label="Move left" data-i18n-label="play.left.l">◀ <span data-i18n="play.left">Left</span></button>
+<button type="button" id="pad-right" data-hold="ArrowRight" aria-label="Move right" data-i18n-label="play.right.l"><span data-i18n="play.right">Right</span> ▶</button>
+</div>
+<div class="ctrl" id="ctrl" hidden>
+<button type="button" class="btn secondary" id="flag" data-i18n="play.flag">Green flag (restart)</button>
+<button type="button" class="btn secondary" id="stop" data-i18n="play.stop">Stop</button>
+</div>
+<p class="status" id="status" role="status" aria-live="polite"></p>
+</div>
+<div>
+<h2 id="g-title" style="margin-top:0">Catch and Avoid</h2>
+<p data-i18n="play.how">Catch the apples. Do not catch the bomb! If you miss an apple, you lose a life. You have 3 lives.</p>
+<p data-i18n="play.keys">Use the left and right arrow keys to move the basket. On a phone, use the buttons under the game.</p>
+<p><a class="btn secondary" href="downloads/catch-final.sb3" download><span data-i18n="play.dl">Download the finished game (.sb3)</span></a></p>
+<p data-i18n="play.dlnote">Open the file in Scratch to see how it works: File, then Load from your computer.</p>
+<p data-i18n="play.tobuild">Want to make it yourself? Go to the Build page.</p>
+<p><a class="btn" href="build.html" data-i18n="home.cta2">Build it yourself</a></p>
+</div>
+</section>
+
+<h2 data-i18n="play.more.h">More games to try</h2>
+<p data-i18n="play.more.p">These games were made by other Scratch creators. They load from scratch.mit.edu only when you press the button. The instructions are on each game page.</p>
+<div class="games">
+<article class="gamecard">
+<h3>Asteroid Dodge</h3>
+<p data-i18n="play.g.ast">Dodge the falling asteroids.</p>
+<div class="embed" id="embed-80147818"></div>
+<div class="links">
+<button type="button" class="btn" data-embed="80147818" data-i18n="play.loadgame">Play on Scratch</button>
+<a class="btn secondary" href="https://scratch.mit.edu/projects/80147818/" target="_blank" rel="noopener" data-i18n="play.orig">Open the original project</a>
+</div></article>
+<article class="gamecard">
+<h3>Flappy Bird</h3>
+<p data-i18n="play.g.flap">Keep the bird flying between the pipes.</p>
+<div class="embed" id="embed-17828009"></div>
+<div class="links">
+<button type="button" class="btn" data-embed="17828009" data-i18n="play.loadgame">Play on Scratch</button>
+<a class="btn secondary" href="https://scratch.mit.edu/projects/17828009/" target="_blank" rel="noopener" data-i18n="play.orig">Open the original project</a>
+</div></article>
+<article class="gamecard">
+<h3>Pong</h3>
+<p data-i18n="play.g.pong">Bounce the ball back with your paddle.</p>
+<div class="embed" id="embed-2718643"></div>
+<div class="links">
+<button type="button" class="btn" data-embed="2718643" data-i18n="play.loadgame">Play on Scratch</button>
+<a class="btn secondary" href="https://scratch.mit.edu/projects/2718643/" target="_blank" rel="noopener" data-i18n="play.orig">Open the original project</a>
+</div></article>
+</div>
+<p class="note" data-i18n="play.credit">Credit goes to the creator named on each Scratch project page.</p>
+
+</div></main>
+<footer class="site-footer"><div class="wrap">
+<p data-i18n="foot.1">Let's Code is a SULAM community project by Direct SULAM, Universiti Malaya. It is free to use. There are no accounts, no ads and no tracking.</p>
+<p data-i18n="foot.2">Scratch is a project of the Scratch Foundation, in collaboration with the Lifelong Kindergarten Group at the MIT Media Lab. It is available for free at <a href="https://scratch.mit.edu">scratch.mit.edu</a>.</p>
+</div></footer>
+<script src="js/dict.js"></script>
+<script src="js/site.js"></script>
+<script src="js/play.js"></script>
+</body>
+</html>
